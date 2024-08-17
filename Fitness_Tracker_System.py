@@ -27,7 +27,7 @@ st.set_page_config(
 
 # Load data
 # Load the dataset into a DataFrame
-df = pd.read_csv('C:/Users/harit/OneDrive/Desktop/Meta Scifor technologies/Haritha-P-V_Scifor/Haritha-P-V_Scifor/Main_Project/Fitness_tracker_dataset.csv')
+df = pd.read_csv('Fitness_tracker_dataset.csv')
 
 # About Page Function
 def about():
