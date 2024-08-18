@@ -199,7 +199,7 @@ def main():
             try:
                 features = [weight, height_m]
                 rf_pred = predict_with_rf(features)
-                st.write(f"Random Forest Prediction: {rf_pred:.2f} steps")
+                st.write(f"Random Forest Prediction: {rf_pred:.2f} steps per day")
             except Exception as e:
                 st.error(f"Error in prediction: {e}")
 
