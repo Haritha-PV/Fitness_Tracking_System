@@ -50,7 +50,7 @@ def about():
         - **BMI Calculator:** Allows users to calculate their Body Mass Index based on weight and height and provides an interpretation of the BMI category.
         - **Goal Setting & Progress Tracking:** Users can set weekly step goals and track their progress towards these goals with visualizations.
         - **Dataset Overview:** Provides an overview of the dataset used in the app, including its shape, a few rows, and descriptive statistics.
-        - **Model Prediction:** Includes the prediction of number of steps according to the two features in model that is weight and height.
+        - **Model Prediction:** Provides real-time estimates of daily steps based on weight and height, leveraging a trained machine learning model to offer personalized fitness insights.
         
         ## Models and Predictions
         The app uses machine learning model to predict fitness-related metrics based on user inputs. 
