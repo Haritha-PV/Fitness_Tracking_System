@@ -196,7 +196,8 @@ def main():
             height_m = height / 100
             features = [weight, height_m]
             rf_pred = predict_with_rf(features)
-            st.write(f"Random Forest Prediction: {rf_pred:.2f} steps per day")
+            rf_pred = int(rf_pred)
+            st.write(f"Random Forest Prediction: {rf_pred} steps per day")
         else:
             st.write("Please enter valid weight and height values.")
 
