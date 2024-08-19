@@ -59,11 +59,6 @@ def about():
         ## Outputs and Findings
         - Predictions are made based on the input features.
         - Visualizations and user interactions are provided to enhance the fitness tracking experience.
-
-        ## Future Enhancements
-        - Integrate more advanced models and algorithms.
-        - Add features for tracking different types of fitness activities.
-        - Enhance data visualization and user interaction.
         """
     )
 
